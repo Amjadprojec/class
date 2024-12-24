@@ -103,6 +103,7 @@ class Display {
 	  $Api = self::ipApi();
 	  echo bp.'     '.$Api->country.' '.$Api->city.' '.$Api->query.'     '.d.n;
 	  print r.'┏━┓┏┳┓━┓┏━┓┳━┓ '.k.'┳ ┳┏┳┓   '.r.'➤ '.p.'Script : '.y.name.n.r.'┣━┫┃ ┃ ┃┣━┫┃ ┃ '.k.'┗┳┛ ┃    '.r.'➤ '.p.'Version: '.g.version.n.r.'┻ ┻┻ ┻┗┛┻ ┻┻━┛ '.k.' ┻  ┻    '.r.'➤ '.p.'Status : '.g.'Online'.n;
+	  print k.'        @copyright Amjadyt||2024'.n;
 	  self::line();
 	}
 	
