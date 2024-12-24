@@ -99,6 +99,7 @@ class Display {
 	  return h.'--['.k.'Input '.$msg.h.']➤ '.k;
 	}
 	static function ban(){
+          system('clear');
 	  $Api = self::ipApi();
 	  echo bp.'     '.$Api->country.' '.$Api->city.' '.$Api->query.'     '.d.n;
 	  print r.'┏━┓┏┳┓━┓┏━┓┳━┓ '.k.'┳ ┳┏┳┓   '.r.'➤ '.p.'Script : '.y.name.n.r.'┣━┫┃ ┃ ┃┣━┫┃ ┃ '.k.'┗┳┛ ┃    '.r.'➤ '.p.'Version: '.g.version.n.r.'┻ ┻┻ ┻┗┛┻ ┻┻━┛ '.k.' ┻  ┻    '.r.'➤ '.p.'Status : '.g.'Online'.n;
